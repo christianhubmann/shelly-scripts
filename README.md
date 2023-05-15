@@ -1,5 +1,5 @@
 # Shelly Scripts
-# flora-moisture-to-mqtt
+## flora-moisture-to-mqtt
 This script acts as a BLE-to-MQTT-gateway for Xiaomi HHCC Mi Flower Care sensors.
 
 * Enable Bluetooth in Shelly Settings. Bluetooth gateway is not necessary.
