@@ -26,7 +26,8 @@ function bleScanCallback(event, result) {
 
     if (typeof result.addr === "undefined" ||
         typeof result.service_data === "undefined" ||
-        typeof result.service_data.fe95 === "undefined") {
+        typeof result.service_data.fe95 !== "string" ||
+        result.service_data.fe95 < 16) {
         return;
     }
 
